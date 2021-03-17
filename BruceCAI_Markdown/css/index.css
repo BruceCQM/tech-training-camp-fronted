@@ -1,0 +1,76 @@
+#header {
+    position: relative;
+    padding-left: 50px;
+    width: 100%;
+    height: 46px;
+    background: rgb(68, 68, 68);
+    line-height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.btn {
+    margin: 8px 10px 0;
+    padding: 2px 6px;
+}
+
+.copyright {
+    position: absolute;
+    top: 4px;
+    right: 25px;
+}
+
+.container {
+    width: 100% !important;
+    position: absolute;
+    top: 45px;
+    bottom: 0;
+    left: 0;
+}
+
+.row {
+    height: 100%;
+}
+
+.mark,
+#html {
+    height: 100%;
+}
+
+.mark {
+    background-color: rgb(249, 249, 245);
+}
+
+#md {
+    width: 100% !important;
+    height: 100%;
+    resize: none;
+    border: 0;
+    outline: none;
+    background-color: rgb(249, 249, 245);
+    font-size: 16px;
+}
+
+#html {
+    padding: 0 15px;
+    overflow: auto;
+    background-color: rgb(249, 249, 245);
+    border-left: 1px dotted #ccc;
+}
+
+
+p {
+    margin: 0;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+}
+
+ul,
+ol {
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+    margin-bottom: 10px;
+}
