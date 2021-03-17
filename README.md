@@ -21,8 +21,8 @@
 - 无序列表（暂时不支持列表的嵌套）
 - 有序列表
 
-项目效果图：
-![image](https://user-images.githubusercontent.com/74523362/111491515-e4d53200-8776-11eb-9d69-49df73329c9e.png)
+项目效果图：（外观参照了作业部落的Markdown编辑器）
+![image](https://user-images.githubusercontent.com/74523362/111493779-d851d900-8778-11eb-972c-5a3b968a3379.png)
 
 # 项目主要技术
 - 项目主要使用html, css, javascript实现
@@ -32,3 +32,4 @@
 - 界面布局：顶部是一个div区域，放置操作按钮；左侧是一个textarea，进行输入；右侧为一个div区域，显示解析渲染效果
 - 实时渲染：为textarea绑定oninput事件，当其内容发生改变时，重新解析Markdown文本，转换为HTML
 - Markdown语法解析：主要采用正则表达式。将输入内容按照换行符进行分割，分别对每一行的内容利用正则表达式进行匹配，随后转换为相对应的HTML标签
+- 工具栏按钮：目前只实现了点击按钮往光标处插入对应的Markdown文本。使用了bootstrap的按钮样式和字体图标，当点击按钮后，首先获取textarea光标所在位置，随后插入相应的Markdown文本，会自动选中需要用户修改的文字，再手动调用textarea的oninput事件，解析并渲染
