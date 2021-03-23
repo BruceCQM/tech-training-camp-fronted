@@ -18,15 +18,15 @@
 - 代码高亮
 - 多行代码块
 - 分割线
-- 无序列表（暂时不支持列表的嵌套）
+- 无序列表
 - 有序列表
 
 项目效果图：（外观参照了作业部落的Markdown编辑器）
 ![image](https://user-images.githubusercontent.com/74523362/111494177-38e11600-8779-11eb-9114-c183fed4893c.png)
 
 # 项目主要技术
-- 项目主要使用html, css, javascript实现
-- 为了美化界面，使用bootstrap进行UI设计
+- 使用 html, css 完成编辑器的页面设计，使用 js 进行逻辑处理
+- 使用bootstrap的组件库美化界面
 
 # 项目主要思路
 - 界面布局：顶部是一个div区域，放置操作按钮；左侧是一个textarea，进行输入；右侧为一个div区域，显示解析渲染效果
